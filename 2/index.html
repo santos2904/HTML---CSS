@@ -11,6 +11,11 @@
       font-size: 16px;
       margin-right: 20px;
       cursor: pointer;
+      transition: opacity 200ms;
+    }
+
+    .uber:hover {
+      opacity: 0.7;
     }
 
     .amazon {
@@ -25,6 +30,10 @@
       cursor: pointer;
     }
 
+    .amazon:hover {
+      background-color: rgb(255, 200, 20);
+    }
+
     .gitHub {
       background-color: rgb(45, 165, 80);
       color: white;
@@ -36,6 +45,11 @@
       border-radius: 7px;
       margin-right: 20px;
       cursor: pointer;
+      transition: box-shadow 200ms;
+    }
+
+    .gitHub:hover {
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.15);
     }
 
     .bootstrap {
@@ -49,10 +63,15 @@
       border-radius: 5px;
       margin-right: 20px;
       cursor: pointer;
+      transition: background-color 200ms;
+    }
+
+    .bootstrap:hover {
+      background-color: rgb(100, 60, 160);;
     }
 
     .download {
-      background: white;
+      background-color: white;
       color: rgb(110, 120, 125);
       border-color: rgb(110, 120, 125);
       border-width: 1px;
@@ -64,6 +83,12 @@
       border-radius: 5px;
       margin-right: 20px;
       cursor: pointer;
+      transition: background-color 200ms, color 200ms;
+    }
+
+    .download:hover {
+      background-color: rgb(110, 120, 125);
+      color: white; 
     }
 
     .linkedIn {
@@ -77,6 +102,11 @@
       border-radius: 27px;
       margin-right: 20px;
       cursor: pointer;
+      transition: background-color 200ms;
+    }
+
+    .linkedIn:hover {
+      background-color: rgb(0, 70, 140);;
     }
 
     .save {
@@ -86,16 +116,22 @@
       border-width: 2px;
       border-style: solid;
       height: 55px;
-      width: 120px;
+      width: 100px;
       font-size: 20px;
       font-weight: bold;
       border-radius: 27px;
       margin-right: 20px;
       cursor: pointer;
+      transition: background-color 200ms;
+    }
+
+    .save:hover {
+      background-color: rgba(10, 100, 200, 0.15);
+      border-width: 3px;
     }
 
     .cart {
-      background-color: rgb(255, 215, 20);
+      background-color: rgb(255, 215, 70);
       border: none;
       height: 45px;
       width: 180px;
@@ -104,6 +140,15 @@
       border-radius: 23px;
       margin-right: 20px;
       cursor: pointer;
+      transition: background-color 200ms;
+    }
+
+    .cart:hover {
+      background-color: rgb(250, 200, 0);
+    }
+
+    .cart:active {
+      opacity: 0.6;
     }
 
     .buy {
@@ -116,6 +161,15 @@
       border-radius: 23px;
       margin-right: 20px;
       cursor: pointer;
+      transition: background-color 200ms;
+    }
+
+    .buy:hover {
+      background-color: rgb(250, 140, 0);
+    }
+
+    .buy:active {
+      opacity: 0.6;
     }
 
     .item {
@@ -131,6 +185,10 @@
 
     .delivery {
       font-size: 22px;
+    }
+
+    a:hover {
+      color: rgb(200, 130, 30);
     }
 
   </style>
