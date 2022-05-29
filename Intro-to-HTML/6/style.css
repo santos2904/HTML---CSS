@@ -1,0 +1,104 @@
+* {
+    /* background: rgb(20,20,20); */
+}
+
+#yoda {
+    width: 200px;
+    border-radius: 10px;
+    margin: 50px;
+}
+
+#yoda1 {
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+    object-fit: cover;
+}
+
+#yoda2 {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100px;
+    margin: 50px;
+}
+
+.search {
+    border-radius: 5px;
+    background-color: white;
+    border-style: solid;
+    padding: 10px;
+    margin: 50px;
+}
+
+.searchGoogle {
+    border: none;
+    border-radius: 30px;
+    width: 500px;
+    padding: 10px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+    margin: 50px;
+}
+
+.signup {
+    font-family: Arial;
+    margin: 50px;
+}
+.email {
+    margin-bottom: 10px;
+}
+
+.linkedIn {
+    width: 400px;
+    padding: 7px 0px 7px 0px;
+    border-style: solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.policy {
+    margin-bottom: 20px;
+}
+
+.agreeBtn {
+    background-color: rgb(10, 100, 200);
+    width: 400px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 15px 30px 15px 30px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+.twt {
+    margin: 50px;
+}
+
+.yoda3 {
+    height: 50px;
+    width: 50px;
+    margin-right: 5px;
+    object-fit: cover;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.sup {
+    font-size: 18px;
+    font-family: Arial;
+    vertical-align: middle;
+    border: none;
+    width: 300px;
+}
+
+.tweet {
+    background-color: rgb(30, 160, 240);
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    vertical-align: middle;
+}
