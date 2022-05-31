@@ -1,0 +1,106 @@
+.input-name,
+.input-email {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#para {
+  display: inline-block;
+  width: 200px;
+  vertical-align: middle;
+}
+
+.google-logo {
+  margin-left: 120px;
+  display: block;
+}
+
+.search-input {
+  display: block;
+  margin: 10px;
+  width: 500px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.input {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+#first-name,
+#last-name {
+  width: 131px;
+}
+
+#email {
+  display: block;
+  width: 300px;
+}
+
+.signup-btn {
+  display: block;
+  font-size: 18px;
+  background-color: rgb(50, 130, 230);
+  color: white;
+  width: 333px;
+  padding: 14px 0px 14px 0px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.uber-request {
+  font-family: Arial;
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+.uber-input {
+  font-size: 16px;
+  display: block;
+  padding: 15px 20px 15px 20px;
+  width: 400px;
+  border: none;
+  background-color: rgb(240, 240, 240);
+}
+
+#pickup-input {
+  margin-bottom: 5px;
+}
+
+#destination-input {
+  margin-bottom: 20px;
+}
+
+.request-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 15px 25px 15px 25px;
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.schedule-btn {
+  background-color: rgb(240, 240, 240);
+  border: none;
+  padding: 15px 25px 15px 25px;
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
