@@ -4,21 +4,77 @@
     <link rel="stylesheet" link="style.css" />
     <title>YouTube Clone</title>
     <style>
-      .thumbnail {
-        width: 400px;
-        border-radius: 10px;
-      }
-
-      #search {
+      #search-bar {
+        display: block;
         font-size: 20px;
         margin-left: 12px;
+      }
+
+      .thumbnail {
+        width: 300px;
+      }
+
+      .video-preview {
+        display: inline-block;
+        width: 300px;
+        vertical-align: top;
+        margin-right: 15px;
+      }
+
+      .profile-picture {
+        display: inline-block;
+        width: 50px;
+      }
+
+      profile-image {
+        width: 50px;
+      }
+
+      .video-info {
+        display: inline-block;
+        width: 200px;
       }
     </style>
   </head>
   <body>
-    <img class="thumbnail" src="thumbnails\thumbnail-1.webp" />
-    <img class="thumbnail" src="thumbnails\thumbnail-4.webp" />
-    <img class="thumbnail" src="thumbnails\mi11ultra.jpg" />
-    <input type="text" placeholder="Search" name="search" id="search" />
+    <div class="search">
+      <input type="text" placeholder="Search" name="search" id="search-bar" />
+    </div>
+
+    <div class="video-preview">
+      <div>
+        <img class="thumbnail" src="thumbnails\thumbnail-1.webp" />
+      </div>
+      <div>
+        <div class="profile-picture">
+          <img class="profile-image" src="profile-pictures/profile-1.jpg" />
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Talking Tech and AI with Google CEO Sundar Pichai!
+          </p>
+          <p class="video-author">Marques Brownlee</p>
+          <p class="video-stats">3.8M views · 1 year ago</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <img class="thumbnail" src="thumbnails\thumbnail-4.webp" />
+      <p class="video-title">
+        The Simplest Math Problem No One Can Solve - Collatz Conjecture
+      </p>
+      <p class="video-author">Veritasium</p>
+      <p class="video-stats">28M views · 1 year ago</p>
+    </div>
+
+    <div class="video-preview">
+      <img class="thumbnail" src="thumbnails\thumbnail-3.webp" />
+      <p class="video-title">
+        Mi 11 Ultra Review - Xiaomi just KILLED Samsung!?
+      </p>
+      <p class="video-author">Mrwhosetheboss</p>
+      <p class="video-stats">12M views · 1 year ago</p>
+    </div>
   </body>
 </html>
