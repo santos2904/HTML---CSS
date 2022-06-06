@@ -2,8 +2,20 @@
 <html>
   <head>
     <link rel="stylesheet" link="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <title>YouTube Clone</title>
     <style>
+      p {
+        font-family: Robot, Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
       #search-bar {
         display: block;
         font-size: 20px;
@@ -21,18 +33,36 @@
         margin-right: 15px;
       }
 
-      .profile-picture {
-        display: inline-block;
-        width: 50px;
+      .video-title {
+        margin-top: 0;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        margin-bottom: 12px;
       }
 
-      profile-image {
-        width: 50px;
+      .video-info-grid {
+        display: grid;
+        grid-template-columns: 50px 1fr;
       }
 
-      .video-info {
-        display: inline-block;
-        width: 200px;
+      .profile-image {
+        width: 40px;
+        border-radius: 20px;
+      }
+
+      .thumbnail-row {
+        margin-bottom: 12px;
+      }
+
+      .video-author,
+      .video-stats {
+        font-size: 12px;
+        color: #606060;
+      }
+
+      .video-author {
+        margin-bottom: 4px;
       }
     </style>
   </head>
@@ -42,10 +72,10 @@
     </div>
 
     <div class="video-preview">
-      <div>
+      <div class="thumbnail-row">
         <img class="thumbnail" src="thumbnails\thumbnail-1.webp" />
       </div>
-      <div>
+      <div class="video-info-grid">
         <div class="profile-picture">
           <img class="profile-image" src="profile-pictures/profile-1.jpg" />
         </div>
@@ -60,21 +90,38 @@
     </div>
 
     <div class="video-preview">
-      <img class="thumbnail" src="thumbnails\thumbnail-4.webp" />
-      <p class="video-title">
-        The Simplest Math Problem No One Can Solve - Collatz Conjecture
-      </p>
-      <p class="video-author">Veritasium</p>
-      <p class="video-stats">28M views · 1 year ago</p>
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails\thumbnail-4.webp" />
+      </div>
+      <div class="video-info-grid">
+        <div class="profile-picture">
+          <img class="profile-image" src="profile-pictures/profile-4.jpg" />
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            The Simplest Math Problem No One Can Solve - Collatz Conjecture
+          </p>
+          <p class="video-author">Veritasium</p>
+          <p class="video-stats">28M views · 1 year ago</p>
+        </div>
+      </div>
     </div>
 
     <div class="video-preview">
-      <img class="thumbnail" src="thumbnails\thumbnail-3.webp" />
-      <p class="video-title">
-        Mi 11 Ultra Review - Xiaomi just KILLED Samsung!?
-      </p>
-      <p class="video-author">Mrwhosetheboss</p>
-      <p class="video-stats">12M views · 1 year ago</p>
-    </div>
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails\thumbnail-3.webp" />
+      </div>
+      <div class="video-info-grid">
+        <div class="profile-picture">
+          <img class="profile-image" src="profile-pictures/profile-3.jpg" />
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Mi 11 Ultra Review - Xiaomi just KILLED Samsung!?
+          </p>
+          <p class="video-author">Mrwhosetheboss</p>
+          <p class="video-stats">12M views · 1 year ago</p>
+        </div>
+      </div>
   </body>
 </html>
