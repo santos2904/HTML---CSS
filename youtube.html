@@ -23,14 +23,7 @@
       }
 
       .thumbnail {
-        width: 300px;
-      }
-
-      .video-preview {
-        display: inline-block;
-        width: 300px;
-        vertical-align: top;
-        margin-right: 15px;
+        width: 100%
       }
 
       .video-title {
@@ -64,6 +57,13 @@
       .video-author {
         margin-bottom: 4px;
       }
+
+      .video-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 16px;
+        row-gap: 40px;
+      }
     </style>
   </head>
   <body>
@@ -71,57 +71,115 @@
       <input type="text" placeholder="Search" name="search" id="search-bar" />
     </div>
 
-    <div class="video-preview">
-      <div class="thumbnail-row">
-        <img class="thumbnail" src="thumbnails\thumbnail-1.webp" />
-      </div>
-      <div class="video-info-grid">
-        <div class="profile-picture">
-          <img class="profile-image" src="profile-pictures/profile-1.jpg" />
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails\thumbnail-1.webp" />
         </div>
-        <div class="video-info">
-          <p class="video-title">
-            Talking Tech and AI with Google CEO Sundar Pichai!
-          </p>
-          <p class="video-author">Marques Brownlee</p>
-          <p class="video-stats">3.8M views · 1 year ago</p>
+        <div class="video-info-grid">
+          <div class="profile-picture">
+            <img class="profile-image" src="profile-pictures/profile-1.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="video-author">Marques Brownlee</p>
+            <p class="video-stats">3.8M views · 1 year ago</p>
+          </div>
         </div>
       </div>
-    </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails\thumbnail-2.webp" />
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-picture">
+            <img class="profile-image" src="profile-pictures/profile-2.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              How to build a PC, the last guide you'll ever need!
+            </p>
+            <p class="video-author">Linus Tech Tips</p>
+            <p class="video-stats">3.5M views · 1 month ago</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails\thumbnail-3.webp" />
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-picture">
+            <img class="profile-image" src="profile-pictures/profile-3.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Mi 11 Ultra Review - Xiaomi just KILLED Samsung!?
+            </p>
+            <p class="video-author">Mrwhosetheboss</p>
+            <p class="video-stats">12M views · 1 year ago</p>
+          </div>
+        </div>
+      </div>
 
-    <div class="video-preview">
-      <div class="thumbnail-row">
-        <img class="thumbnail" src="thumbnails\thumbnail-4.webp" />
-      </div>
-      <div class="video-info-grid">
-        <div class="profile-picture">
-          <img class="profile-image" src="profile-pictures/profile-4.jpg" />
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails\thumbnail-4.webp" />
         </div>
-        <div class="video-info">
-          <p class="video-title">
-            The Simplest Math Problem No One Can Solve - Collatz Conjecture
-          </p>
-          <p class="video-author">Veritasium</p>
-          <p class="video-stats">28M views · 1 year ago</p>
+        <div class="video-info-grid">
+          <div class="profile-picture">
+            <img class="profile-image" src="profile-pictures/profile-4.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              JavaScript Pro Tips - Code This, NOT That
+            </p>
+            <p class="video-author">Fireship</p>
+            <p class="video-stats">2M views · 3 years ago</p>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="video-preview">
-      <div class="thumbnail-row">
-        <img class="thumbnail" src="thumbnails\thumbnail-3.webp" />
-      </div>
-      <div class="video-info-grid">
-        <div class="profile-picture">
-          <img class="profile-image" src="profile-pictures/profile-3.jpg" />
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails\thumbnail-5.webp" />
         </div>
-        <div class="video-info">
-          <p class="video-title">
-            Mi 11 Ultra Review - Xiaomi just KILLED Samsung!?
-          </p>
-          <p class="video-author">Mrwhosetheboss</p>
-          <p class="video-stats">12M views · 1 year ago</p>
+        <div class="video-info-grid">
+          <div class="profile-picture">
+            <img class="profile-image" src="profile-pictures/profile-5.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              The Most Effective Marginal Gain. Aerodynamics...
+            </p>
+            <p class="video-author">Dylan Johnson</p>
+            <p class="video-stats">235K views · 1 month ago</p>
+          </div>
         </div>
       </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails\thumbnail-6.webp" />
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-picture">
+            <img class="profile-image" src="profile-pictures/profile-6.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              CS50 2021 in HDR - Lecture 2 - Arrays
+            </p>
+            <p class="video-author">CS50</p>
+            <p class="video-stats">130K views · 5 months ago</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
   </body>
 </html>
