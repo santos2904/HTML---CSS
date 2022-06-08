@@ -1,74 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" link="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/video.css" />
     <title>YouTube Clone</title>
-    <style>
-      p {
-        font-family: Robot, Arial;
-        margin-top: 0;
-        margin-bottom: 0;
-      }
-
-      #search-bar {
-        display: block;
-        font-size: 20px;
-        margin-left: 12px;
-      }
-
-      .thumbnail {
-        width: 100%
-      }
-
-      .video-title {
-        margin-top: 0;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 20px;
-        margin-bottom: 12px;
-      }
-
-      .video-info-grid {
-        display: grid;
-        grid-template-columns: 50px 1fr;
-      }
-
-      .profile-image {
-        width: 40px;
-        border-radius: 20px;
-      }
-
-      .thumbnail-row {
-        margin-bottom: 12px;
-      }
-
-      .video-author,
-      .video-stats {
-        font-size: 12px;
-        color: #606060;
-      }
-
-      .video-author {
-        margin-bottom: 4px;
-      }
-
-      .video-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        column-gap: 16px;
-        row-gap: 40px;
-      }
-    </style>
   </head>
   <body>
-    <div class="search">
-      <input type="text" placeholder="Search" name="search" id="search-bar" />
+    <div class="header">
+      <div class="left-section">left section</div>
+      <div class="middle-section">
+        <input type="text" placeholder="Search" name="search" id="search-bar" />
+      </div>
+      <div class="right-section">right section</div>
     </div>
 
     <div class="video-grid">
@@ -89,7 +39,7 @@
           </div>
         </div>
       </div>
-  
+
       <div class="video-preview">
         <div class="thumbnail-row">
           <img class="thumbnail" src="thumbnails\thumbnail-2.webp" />
@@ -107,7 +57,7 @@
           </div>
         </div>
       </div>
-  
+
       <div class="video-preview">
         <div class="thumbnail-row">
           <img class="thumbnail" src="thumbnails\thumbnail-3.webp" />
@@ -135,9 +85,7 @@
             <img class="profile-image" src="profile-pictures/profile-4.jpg" />
           </div>
           <div class="video-info">
-            <p class="video-title">
-              JavaScript Pro Tips - Code This, NOT That
-            </p>
+            <p class="video-title">JavaScript Pro Tips - Code This, NOT That</p>
             <p class="video-author">Fireship</p>
             <p class="video-stats">2M views · 3 years ago</p>
           </div>
@@ -171,15 +119,12 @@
             <img class="profile-image" src="profile-pictures/profile-6.jpg" />
           </div>
           <div class="video-info">
-            <p class="video-title">
-              CS50 2021 in HDR - Lecture 2 - Arrays
-            </p>
+            <p class="video-title">CS50 2021 in HDR - Lecture 2 - Arrays</p>
             <p class="video-author">CS50</p>
             <p class="video-stats">130K views · 5 months ago</p>
           </div>
         </div>
       </div>
-
     </div>
   </body>
 </html>

@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.div1 {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.div2 {
+  background-color: pink;
+  width: 75px;
+}
+
+.item1 {
+    background-color: lightblue;
+    width: 50px;
+}
+
+.item2 {
+    background-color: pink;
+    flex: 1;
+}
+
+.item3 {
+    background-color: lightblue;
+    width: 75px;
+}
+
+.item {
+    background-color: pink;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid gray;
+    height: 50px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.container12e {
+    border: 1px solid gray;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 50px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.number {
+    background-color: rgb(50,100,230);
+    color: white;
+    font-weight: bold;
+    padding: 3px 10px;
+    border-radius: 20px;
+}
+
+.header {
+    background-color: rgb(120,80,180);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+.home {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.search-bar {
+    width: 500px;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    padding-left: 20px;
+}
+
+.download-btn {
+    background-color: rgb(120,80,180);
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 8px 16px;
+    margin-right: 10px;
+}
+
+p {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-picture {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-right: 15px;
+  }
+  
+  .info {
+    width: 220px;
+  }
+  
+  .name {
+    font-weight: bold;
+    margin-bottom: 3px;
+  }
+  
+  .handle {
+    color: gray;
+    margin-bottom: 5px;
+  }
+  
+  .category {
+    color: gray;
+    font-size: 14px;
+  }
+  
+  .follow-button {
+    background-color: rgb(30, 160, 240);
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
