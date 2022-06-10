@@ -1,0 +1,202 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  height: 50px;
+  margin-bottom: 50px;
+}
+
+.first-container {
+  display: flex;
+  width: 100px;
+  background-color: pink;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-element {
+  background-color: black;
+  color: white;
+}
+
+.second-element {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.flex-container1 {
+  display: flex;
+  height: 50px;
+  margin-bottom: 50px;
+}
+
+.first-box {
+  width: 100px;
+  background-color: pink;
+}
+
+.outside-box {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.inside-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row-element {
+  background-color: black;
+  color: white;
+}
+
+/* Gmail iOS - challenge exercises 13d and 13e - start */
+
+.container {
+  padding: 10px;
+  width: 400px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  margin: 20px;
+  margin-bottom: 50px;
+}
+
+.email-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.email-content {
+  flex: 1;
+}
+
+.inbox-header {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.picture-container {
+  margin-right: 10px;
+}
+
+.profile-picture {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.email-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+.email-sender {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.email-subject {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.email-message {
+  color: gray;
+}
+
+.time {
+  font-size: 14px;
+  color: gray;
+}
+
+/* Gmail iOS - challenge exercises 13d and 13e - End */
+
+/* twitter - Challenge exercise 13g - start */
+
+.tweet {
+  display: flex;
+  width: 425px;
+  margin: 20px;
+}
+
+.profile-image-column {
+  margin-right: 10px;
+}
+
+.profile-image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.tweet-box {
+  flex: 1;
+}
+
+.tweet-header {
+  display: flex;
+  margin: 5px 0px;
+}
+
+.tweet-author {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.twitter-handle {
+  color: gray;
+}
+
+.tweet-content {
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+
+.video-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.video-info {
+  flex: 1;
+}
+
+.video-thumbnail {
+  width: 100px;
+  height: 100px;
+  margin-right: 12px;
+  background-color: lightgray;
+}
+
+.video-link {
+  color: gray;
+}
+
+.video-title {
+  line-height: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+.yt-thumbnail {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
