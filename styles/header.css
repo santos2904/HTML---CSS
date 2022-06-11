@@ -20,10 +20,11 @@
     flex-direction: row;
     justify-content: space-between;
     position: fixed;
-    background-color: #fff;
     top: 0;
     right: 0;
     left: 0;
+    z-index: 100;
+    background-color: #fff;
     border-bottom: 1px solid rgb(230, 230, 230);
 }
 
@@ -94,6 +95,23 @@
 
 .notifications-icon {
     height: 25px;
+}
+
+.notifications-icon-container {
+    position: relative;
+}
+
+.notifications-count {
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    background-color: rgb(200, 0, 0);
+    color: #fff;
+    font-family: Roboto, Arial;
+    font-size: 11px;
+    padding: 2px 5px;
+    border: 1px solid white;
+    border-radius: 10px;
 }
 
 .current-user-picture {
