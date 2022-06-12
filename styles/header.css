@@ -2,119 +2,156 @@
   flex: 1;
   height: 36px;
   font-size: 16px;
-  border: 1px solid rgb(200,200,200);
+  border: 1px solid rgb(200, 200, 200);
   border-radius: 3px;
-  box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
   width: 0;
 }
 
 .search-bar::placeholder {
-    font-family: Robot, Arial;
-    font-size: 16px;
-    padding-left: 10px;
+  font-size: 16px;
+  padding-left: 10px;
 }
 
 .header {
-    height: 55px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 100;
-    background-color: #fff;
-    border-bottom: 1px solid rgb(230, 230, 230);
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  background-color: #fff;
+  border-bottom: 1px solid rgb(230, 230, 230);
 }
 
 .left-section {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .middle-section {
-    display: flex;
-    flex: 1;
-    align-items: center;
-    margin-left: 70px;
-    margin-right: 35px;
-    max-width: 500px;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
 }
 .right-section {
-    display: flex;
-    align-items: center;
-    width: 180px;
-    justify-content: space-between;
-    margin-right: 20px;
-    flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  width: 180px;
+  justify-content: space-between;
+  margin-right: 20px;
+  flex-shrink: 0;
 }
 
 .hamburger-menu {
-    height: 25px;
-    margin: 0px 25px;
+  height: 25px;
+  margin: 0px 25px;
+  cursor: pointer;
 }
 
 .youtube-logo {
-    height: 20px;
+  height: 20px;
+  cursor: pointer;
 }
 
 .search-btn {
-    height: 40px;
-    width: 66px;
-    background-color: rba(240,240,240);
-    border: 1px solid rgb(200,200,200);
-    margin-left: -2px;
-    margin-right: 10px;
+  height: 40px;
+  width: 66px;
+  background-color: rba(240, 240, 240);
+  border: 1px solid rgb(200, 200, 200);
+  margin-left: -2px;
+  margin-right: 10px;
+}
+
+.search-btn,
+.voice-search-btn,
+.upload-icon-container,
+.youtube-apps-icon-container,
+.notifications-icon-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.search-btn .tooltip,
+.voice-search-btn .tooltip,
+.upload-icon-container .tooltip,
+.youtube-apps-icon-container .tooltip,
+.notifications-icon-container .tooltip {
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity 0.2s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.search-btn:hover .tooltip,
+.voice-search-btn:hover .tooltip,
+.upload-icon-container:hover .tooltip,
+.youtube-apps-icon-container:hover .tooltip,
+.notifications-icon-container:hover .tooltip {
+  opacity: 1;
 }
 
 .search-icon {
-    height: 25px;
-    margin-top: 4px;
+  height: 25px;
+  margin-top: 4px;
 }
 
 .voice-search-btn {
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    border: none;
-    background-color: rba(245,245,245);
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: rba(245, 245, 245);
 }
 
 .voice-search-icon {
-    height: 25px;
-    margin-top: 4px;
+  height: 25px;
 }
 
 .upload-icon {
-    height: 25px;
+  height: 25px;
 }
 
 .youtube-apps-icon {
-    height: 25px;
+  height: 25px;
 }
 
 .notifications-icon {
-    height: 25px;
+  height: 25px;
 }
 
 .notifications-icon-container {
-    position: relative;
+  position: relative;
 }
 
 .notifications-count {
-    position: absolute;
-    top: -3px;
-    right: -3px;
-    background-color: rgb(200, 0, 0);
-    color: #fff;
-    font-family: Roboto, Arial;
-    font-size: 11px;
-    padding: 2px 5px;
-    border: 1px solid white;
-    border-radius: 10px;
+  position: absolute;
+  top: -3px;
+  right: -3px;
+  background-color: rgb(200, 0, 0);
+  color: #fff;
+  font-size: 11px;
+  padding: 2px 5px;
+  border: 1px solid white;
+  border-radius: 10px;
 }
 
 .current-user-picture {
-    height: 33px;
-    border-radius: 50%;
+  height: 33px;
+  border-radius: 50%;
 }
