@@ -36,6 +36,7 @@
 	display: flex;
 	align-items: center;
 }
+
 .middle-section {
 	display: flex;
 	flex: 1;
@@ -44,8 +45,10 @@
 	margin-right: 35px;
 	max-width: 500px;
 }
+
 .right-section {
 	display: flex;
+	flex: 1;
 	align-items: center;
 	width: 180px;
 	justify-content: space-between;
@@ -62,6 +65,16 @@
 .youtube-logo {
 	height: 20px;
 	cursor: pointer;
+}
+
+@media (max-width: 600px) {
+	.middle-section {
+		max-width: 600px;
+		margin: 2px;
+	}
+	.youtube-logo {
+		display: none;
+	}
 }
 
 .search-btn {
