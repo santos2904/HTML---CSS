@@ -48,7 +48,6 @@
 
 .right-section {
 	display: flex;
-	flex: 1;
 	align-items: center;
 	width: 180px;
 	justify-content: space-between;
@@ -67,15 +66,6 @@
 	cursor: pointer;
 }
 
-@media (max-width: 600px) {
-	.middle-section {
-		max-width: 600px;
-		margin: 2px;
-	}
-	.youtube-logo {
-		display: none;
-	}
-}
 
 .search-btn {
 	height: 40px;
@@ -86,8 +76,22 @@
 	margin-right: 10px;
 }
 
+
 .search-btn:hover {
 	background-color: rgb(235, 235, 235);
+}
+
+@media (max-width: 700px) {
+	.middle-section {
+		max-width: 600px;
+		margin: 2px;
+	}
+	.youtube-logo {
+		display: none;
+	}
+	.search-btn {
+		width: 40px;
+	}
 }
 
 .youtube-logo-container,
